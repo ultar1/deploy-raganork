@@ -1,4 +1,4 @@
-FROM quay.io/souravkl11/rgnk-v3:latest
+FROM quay.io/souravkl11/rgnk-v2:latest
 
 RUN git clone https://github.com/souravkl11/raganork-md /rgnk/Raganork
 WORKDIR /rgnk/Raganork
