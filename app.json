@@ -11,7 +11,7 @@
         "HANDLERS": {
             "description": "Prefix of commands. Can be also false",
             "required": true,
-            "value":".,"
+            "value":"."
         },
         "MULTI_HANDLERS": {
             "description": "Use prefix as given handlers and also without handlers",
@@ -31,17 +31,17 @@
        "HEROKU_API_KEY": {
             "description": "For updating bot and setting vars remotely",
             "required": true,
-            "value":""
+            "value":"."
         },
         "HEROKU_APP_NAME": {
             "description": "Exact name which you gave at the top",
             "required": true,
-            "value":""
+            "value":"."
         },
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
-            "value":"Raganork pack;Author name"
+            "value":"*𝖀𝖑𝖙-𝕬𝕽"
         },
         "CHATBOT": {
             "description": "AI chatbot",
@@ -66,7 +66,7 @@
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":""
+            "value":"null,2349163916314"
         },
         "BLOCK_CHAT": {
             "description": "Block bot in specific groups, enter jids here sepereated with commas",
@@ -96,7 +96,7 @@
         "AUTO_READ_STATUS": {
             "description": "View status updates automatically",
             "required": false,
-            "value":"true"
+            "value":"false"
         },
         "ALIVE": {
             "description": "Alive message, customize your alive msg by looking wiki",
